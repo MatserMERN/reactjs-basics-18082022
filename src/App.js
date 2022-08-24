@@ -4,6 +4,9 @@ import GreetNamedOne from "./1.components/1.function/GreetNamedOne";
 import { GreetNamedTwo } from "./1.components/1.function/GreetNamedTwo";
 import Welcome from "./1.components/2.class/Welcome";
 import { WelcomeOne } from "./1.components/2.class/WelcomeOne";
+import LifeCycleA from "./10.life-cycle-methods/LifeCycleA";
+import PostApi from "./11.ajax-calls/PostApi";
+import UserAPI from "./11.ajax-calls/UserAPI";
 import Hello from "./2.jsx/Hello";
 import Greeting from "./3.props/Greeting";
 import GreetingOne from "./3.props/GreetingOne";
@@ -19,9 +22,17 @@ import UserGreetingFour from "./6.conditional-rendering/UserGreetingFour";
 import UserGreetingOne from "./6.conditional-rendering/UserGreetingOne";
 import UserGreetingThree from "./6.conditional-rendering/UserGreetingThree";
 import UserGreetingTwo from "./6.conditional-rendering/UserGreetingTwo";
+import NameListFive from "./7.list-rendering/NameListFive";
+import NameListFour from "./7.list-rendering/NameListFour";
 import NameListOne from "./7.list-rendering/NameListOne";
+import NameListSix from "./7.list-rendering/NameListSix";
 import NameListThree from "./7.list-rendering/NameListThree";
 import NameListTwo from "./7.list-rendering/NameListTwo";
+import AppStyles from "./8.styling/AppStyles";
+import Inline from "./8.styling/Inline";
+import Stylesheet from "./8.styling/Stylesheet";
+import UserForm from "./9.form-handling/UserForm";
+import UserFormOne from "./9.form-handling/UserFormOne";
 
 function App() {
   function sayHello() {
@@ -29,7 +40,18 @@ function App() {
   }
   return (
     <div className="container">
-      <NameListThree />
+      <UserAPI />
+      {/* <PostApi /> */}
+      {/* <LifeCycleA /> */}
+      {/* <UserFormOne /> */}
+      {/* <UserForm /> */}
+      {/* <AppStyles /> */}
+      {/* <Inline /> */}
+      {/* <Stylesheet primary={false}/> */}
+      {/* <NameListSix /> */}
+      {/* <NameListFive /> */}
+      {/* <NameListFour /> */}
+      {/* <NameListThree /> */}
       {/* <NameListTwo /> */}
       {/* <NameListOne /> */}
       {/* <UserGreetingFour /> */}
