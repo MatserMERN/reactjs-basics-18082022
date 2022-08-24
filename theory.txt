@@ -35,6 +35,10 @@ need of `page refresh`
 Because componets are independent, one component can refresh without
 affecting other components or the UI as a whole
 
+Plugin create Function / Class Components
+------------------------------------------
+https://github.com/chillios-ts/vscode-react-javascript-snippets/blob/HEAD/docs/Snippets.md
+
 Types components
 -------------------
 1. Function Components
