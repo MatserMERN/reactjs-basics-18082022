@@ -6,7 +6,17 @@ import Welcome from "./1.components/2.class/Welcome";
 import { WelcomeOne } from "./1.components/2.class/WelcomeOne";
 import LifeCycleA from "./10.life-cycle-methods/LifeCycleA";
 import PostApi from "./11.ajax-calls/PostApi";
+import ProductsAPI from "./11.ajax-calls/ProductsAPI";
+import StudentAPI from "./11.ajax-calls/StudentAPI";
+import StudentFetchAPI from "./11.ajax-calls/StudentFetchAPI";
+import StudentReduxApi from "./11.ajax-calls/StudentReduxApi";
 import UserAPI from "./11.ajax-calls/UserAPI";
+import Routing from "./12.routing/Routing";
+import ApiUsingHook from "./13.hooks/ApiUsingHook";
+import ClassCounter from "./13.hooks/ClassCounter";
+import HookCounter from "./13.hooks/HookCounter";
+import HookUsingObject from "./13.hooks/HookUsingObject";
+import HookWithString from "./13.hooks/HookWithString";
 import Hello from "./2.jsx/Hello";
 import Greeting from "./3.props/Greeting";
 import GreetingOne from "./3.props/GreetingOne";
@@ -40,7 +50,17 @@ function App() {
   }
   return (
     <div className="container">
-      <UserAPI />
+      <StudentReduxApi />
+      {/* <ApiUsingHook /> */}
+      {/* <HookUsingObject /> */}
+      {/* <HookWithString /> */}
+      {/* <HookCounter /> */}
+      {/* <ClassCounter /> */}
+      {/* <Routing /> */}
+      {/* <StudentFetchAPI /> */}
+      {/* <StudentAPI /> */}
+      {/* <ProductsAPI /> */}
+      {/* <UserAPI /> */}
       {/* <PostApi /> */}
       {/* <LifeCycleA /> */}
       {/* <UserFormOne /> */}

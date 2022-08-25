@@ -188,6 +188,12 @@ LifeCycle Methods
 -> static getDerivedStateFromError
 -> componentDidCatch
 
+APIs for Ajax calls
+---------------------
+https://fakestoreapi.com/
+https://jsonplaceholder.typicode.com/users
+
+
 
 React Routing
 -----------------
@@ -233,3 +239,5 @@ Reducers - implenets behaviour of the action
          - never return undefined from reducers
          - We always want our state to be defined 
 Store - brings actions and reducers together and changes the state of app 
+
+

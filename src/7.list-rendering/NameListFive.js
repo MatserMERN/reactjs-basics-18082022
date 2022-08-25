@@ -28,7 +28,7 @@ function NameListFive() {
         },
     ]
     return(
-        <div>
+        <div className="container">
             <h1>User List</h1>
             <table className="table">
                 <thead>
